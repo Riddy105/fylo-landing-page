@@ -163,6 +163,9 @@
   .cta-section button {
     width: 90%;
   }
+  footer {
+    padding-right: 15px;
+  }
 
   /* FIXING FLEXBOX GAP IN SAFARI 14.5 BELOW */
 
@@ -175,7 +178,7 @@
   .no-flexbox-gap .description-block input {
     margin-bottom: 2rem;
   }
-  .no-flexbox-gap .more-info img {
+  .no-flexbox-gap .fylo-illustration {
     margin-bottom: 4rem;
   }
   .no-flexbox-gap .ceo-info {
@@ -196,6 +199,9 @@
   .no-flexbox-gap .icons a:not(:last-child) {
     margin-right: 10px;
   }
+  .no-flexbox-gap .cta-section article {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 375px) {
@@ -205,6 +211,7 @@
   nav ul {
     gap: 1rem;
   }
+
   .attribution {
     font-size: 12px;
   }
