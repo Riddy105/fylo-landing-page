@@ -193,11 +193,11 @@
   .no-flexbox-gap .contact img {
     margin-right: 1.5rem;
   }
-  .no-flexbox-gap .footer-cont div:not(:last-child) {
+  .no-flexbox-gap .hov-footer:not(:last-of-type) {
     margin-bottom: 5rem;
   }
   .no-flexbox-gap .icons a:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 1rem;
   }
   .no-flexbox-gap .cta-section article {
     margin-bottom: 2rem;
